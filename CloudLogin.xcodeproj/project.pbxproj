@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577C5349266A51E80094E87F /* CloudLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C5348266A51E80094E87F /* CloudLoginApp.swift */; };
+		577C534B266A51E80094E87F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C534A266A51E80094E87F /* ContentView.swift */; };
+		577C534D266A51F00094E87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577C534C266A51F00094E87F /* Assets.xcassets */; };
+		577C5350266A51F00094E87F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577C534F266A51F00094E87F /* Preview Assets.xcassets */; };
+		577C535B266A51F00094E87F /* CloudLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C535A266A51F00094E87F /* CloudLoginTests.swift */; };
+		577C5366266A51F00094E87F /* CloudLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C5365266A51F00094E87F /* CloudLoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		577C5357266A51F00094E87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577C533D266A51E80094E87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577C5344266A51E80094E87F;
+			remoteInfo = CloudLogin;
+		};
+		577C5362266A51F00094E87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577C533D266A51E80094E87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577C5344266A51E80094E87F;
+			remoteInfo = CloudLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		577C5345266A51E80094E87F /* CloudLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577C5348266A51E80094E87F /* CloudLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLoginApp.swift; sourceTree = "<group>"; };
+		577C534A266A51E80094E87F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		577C534C266A51F00094E87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577C534F266A51F00094E87F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		577C5351266A51F00094E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577C5356266A51F00094E87F /* CloudLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577C535A266A51F00094E87F /* CloudLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLoginTests.swift; sourceTree = "<group>"; };
+		577C535C266A51F00094E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577C5361266A51F00094E87F /* CloudLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577C5365266A51F00094E87F /* CloudLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLoginUITests.swift; sourceTree = "<group>"; };
+		577C5367266A51F00094E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577C5342266A51E80094E87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577C5353266A51F00094E87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577C535E266A51F00094E87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577C533C266A51E80094E87F = {
+			isa = PBXGroup;
+			children = (
+				577C5347266A51E80094E87F /* CloudLogin */,
+				577C5359266A51F00094E87F /* CloudLoginTests */,
+				577C5364266A51F00094E87F /* CloudLoginUITests */,
+				577C5346266A51E80094E87F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		577C5346266A51E80094E87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577C5345266A51E80094E87F /* CloudLogin.app */,
+				577C5356266A51F00094E87F /* CloudLoginTests.xctest */,
+				577C5361266A51F00094E87F /* CloudLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577C5347266A51E80094E87F /* CloudLogin */ = {
+			isa = PBXGroup;
+			children = (
+				577C5348266A51E80094E87F /* CloudLoginApp.swift */,
+				577C534A266A51E80094E87F /* ContentView.swift */,
+				577C534C266A51F00094E87F /* Assets.xcassets */,
+				577C5351266A51F00094E87F /* Info.plist */,
+				577C534E266A51F00094E87F /* Preview Content */,
+			);
+			path = CloudLogin;
+			sourceTree = "<group>";
+		};
+		577C534E266A51F00094E87F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				577C534F266A51F00094E87F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		577C5359266A51F00094E87F /* CloudLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				577C535A266A51F00094E87F /* CloudLoginTests.swift */,
+				577C535C266A51F00094E87F /* Info.plist */,
+			);
+			path = CloudLoginTests;
+			sourceTree = "<group>";
+		};
+		577C5364266A51F00094E87F /* CloudLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				577C5365266A51F00094E87F /* CloudLoginUITests.swift */,
+				577C5367266A51F00094E87F /* Info.plist */,
+			);
+			path = CloudLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577C5344266A51E80094E87F /* CloudLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577C536A266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLogin" */;
+			buildPhases = (
+				577C5341266A51E80094E87F /* Sources */,
+				577C5342266A51E80094E87F /* Frameworks */,
+				577C5343266A51E80094E87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudLogin;
+			productName = CloudLogin;
+			productReference = 577C5345266A51E80094E87F /* CloudLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		577C5355266A51F00094E87F /* CloudLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577C536D266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLoginTests" */;
+			buildPhases = (
+				577C5352266A51F00094E87F /* Sources */,
+				577C5353266A51F00094E87F /* Frameworks */,
+				577C5354266A51F00094E87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577C5358266A51F00094E87F /* PBXTargetDependency */,
+			);
+			name = CloudLoginTests;
+			productName = CloudLoginTests;
+			productReference = 577C5356266A51F00094E87F /* CloudLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		577C5360266A51F00094E87F /* CloudLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577C5370266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLoginUITests" */;
+			buildPhases = (
+				577C535D266A51F00094E87F /* Sources */,
+				577C535E266A51F00094E87F /* Frameworks */,
+				577C535F266A51F00094E87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577C5363266A51F00094E87F /* PBXTargetDependency */,
+			);
+			name = CloudLoginUITests;
+			productName = CloudLoginUITests;
+			productReference = 577C5361266A51F00094E87F /* CloudLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577C533D266A51E80094E87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					577C5344266A51E80094E87F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					577C5355266A51F00094E87F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 577C5344266A51E80094E87F;
+					};
+					577C5360266A51F00094E87F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 577C5344266A51E80094E87F;
+					};
+				};
+			};
+			buildConfigurationList = 577C5340266A51E80094E87F /* Build configuration list for PBXProject "CloudLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577C533C266A51E80094E87F;
+			productRefGroup = 577C5346266A51E80094E87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577C5344266A51E80094E87F /* CloudLogin */,
+				577C5355266A51F00094E87F /* CloudLoginTests */,
+				577C5360266A51F00094E87F /* CloudLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577C5343266A51E80094E87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577C5350266A51F00094E87F /* Preview Assets.xcassets in Resources */,
+				577C534D266A51F00094E87F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577C5354266A51F00094E87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577C535F266A51F00094E87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577C5341266A51E80094E87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577C534B266A51E80094E87F /* ContentView.swift in Sources */,
+				577C5349266A51E80094E87F /* CloudLoginApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577C5352266A51F00094E87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577C535B266A51F00094E87F /* CloudLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577C535D266A51F00094E87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577C5366266A51F00094E87F /* CloudLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577C5358266A51F00094E87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577C5344266A51E80094E87F /* CloudLogin */;
+			targetProxy = 577C5357266A51F00094E87F /* PBXContainerItemProxy */;
+		};
+		577C5363266A51F00094E87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577C5344266A51E80094E87F /* CloudLogin */;
+			targetProxy = 577C5362266A51F00094E87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		577C5368266A51F00094E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		577C5369266A51F00094E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		577C536B266A51F00094E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CloudLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577C536C266A51F00094E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CloudLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		577C536E266A51F00094E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				INFOPLIST_FILE = CloudLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudLogin.app/CloudLogin";
+			};
+			name = Debug;
+		};
+		577C536F266A51F00094E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				INFOPLIST_FILE = CloudLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudLogin.app/CloudLogin";
+			};
+			name = Release;
+		};
+		577C5371266A51F00094E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				INFOPLIST_FILE = CloudLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudLogin;
+			};
+			name = Debug;
+		};
+		577C5372266A51F00094E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				INFOPLIST_FILE = CloudLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577C5340266A51E80094E87F /* Build configuration list for PBXProject "CloudLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577C5368266A51F00094E87F /* Debug */,
+				577C5369266A51F00094E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577C536A266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577C536B266A51F00094E87F /* Debug */,
+				577C536C266A51F00094E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577C536D266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577C536E266A51F00094E87F /* Debug */,
+				577C536F266A51F00094E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577C5370266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577C5371266A51F00094E87F /* Debug */,
+				577C5372266A51F00094E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577C533D266A51E80094E87F /* Project object */;
+}
