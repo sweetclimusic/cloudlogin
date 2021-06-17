@@ -3,16 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5725CED0266E5B8900F7B5CB /* VisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 5725CECF266E5B8900F7B5CB /* VisualEffects */; };
+		575F5112267B93B5008CCC96 /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 575F5111267B93B5008CCC96 /* AWSS3StoragePlugin */; };
+		575F5114267B93B5008CCC96 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 575F5113267B93B5008CCC96 /* AWSCognitoAuthPlugin */; };
+		575F5116267B93B5008CCC96 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 575F5115267B93B5008CCC96 /* Amplify */; };
 		577C5349266A51E80094E87F /* CloudLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C5348266A51E80094E87F /* CloudLoginApp.swift */; };
-		577C534B266A51E80094E87F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C534A266A51E80094E87F /* ContentView.swift */; };
 		577C534D266A51F00094E87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577C534C266A51F00094E87F /* Assets.xcassets */; };
 		577C5350266A51F00094E87F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577C534F266A51F00094E87F /* Preview Assets.xcassets */; };
 		577C535B266A51F00094E87F /* CloudLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C535A266A51F00094E87F /* CloudLoginTests.swift */; };
 		577C5366266A51F00094E87F /* CloudLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C5365266A51F00094E87F /* CloudLoginUITests.swift */; };
+		57ED03652677AB5A00130A0A /* FlatLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED03642677AB5A00130A0A /* FlatLoginViewModel.swift */; };
+		57ED03672678B19900130A0A /* WhiteLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED03662678B19900130A0A /* WhiteLineView.swift */; };
+		57ED03692678FAA400130A0A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED03682678FAA400130A0A /* Helpers.swift */; };
+		57FC4A5E26711761005F2588 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC4A5D26711761005F2588 /* IconView.swift */; };
+		75A95C8DE2D4D5147B3D8002 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 66CCBA0E04C87450AA8C143A /* amplifyconfiguration.json */; };
+		BC8462B8FA3E011B7049E00E /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8460CF092F78A89BEB4CAA /* AppStyle.swift */; };
+		BC8463D9596F98389CBF7E89 /* SignupScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC846DC4C23A78BA8C9EB95D /* SignupScreenView.swift */; };
+		BC84642BA270CD7D4534E457 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC846D984B847EDF9B01896F /* CardView.swift */; };
+		BC8467B14F961303CFF3C05F /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC846DC3FE0A883030D0672C /* PauseView.swift */; };
+		BC846C0235B75DC7EDE0B7DD /* GradientButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84601DB4B2CC788327DD61 /* GradientButtonView.swift */; };
+		BC846CF374FC82CB70B76F82 /* FlatLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8467EF5FC370CBD7AF04CC /* FlatLoginView.swift */; };
+		C9F0155909DF56C10069F0FA /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E13300B0D4A8DD29DF6C580B /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5725CED12670F42D00F7B5CB /* CloudLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudLogin.entitlements; sourceTree = "<group>"; };
 		577C5345266A51E80094E87F /* CloudLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577C5348266A51E80094E87F /* CloudLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLoginApp.swift; sourceTree = "<group>"; };
-		577C534A266A51E80094E87F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		577C534C266A51F00094E87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577C534F266A51F00094E87F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		577C5351266A51F00094E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +60,18 @@
 		577C5361266A51F00094E87F /* CloudLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		577C5365266A51F00094E87F /* CloudLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLoginUITests.swift; sourceTree = "<group>"; };
 		577C5367266A51F00094E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ED03642677AB5A00130A0A /* FlatLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatLoginViewModel.swift; sourceTree = "<group>"; };
+		57ED03662678B19900130A0A /* WhiteLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteLineView.swift; sourceTree = "<group>"; };
+		57ED03682678FAA400130A0A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		57FC4A5D26711761005F2588 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		66CCBA0E04C87450AA8C143A /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		BC84601DB4B2CC788327DD61 /* GradientButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButtonView.swift; sourceTree = "<group>"; };
+		BC8460CF092F78A89BEB4CAA /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		BC8467EF5FC370CBD7AF04CC /* FlatLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatLoginView.swift; sourceTree = "<group>"; };
+		BC846D984B847EDF9B01896F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BC846DC3FE0A883030D0672C /* PauseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		BC846DC4C23A78BA8C9EB95D /* SignupScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupScreenView.swift; sourceTree = "<group>"; };
+		E13300B0D4A8DD29DF6C580B /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5725CED0266E5B8900F7B5CB /* VisualEffects in Frameworks */,
+				575F5116267B93B5008CCC96 /* Amplify in Frameworks */,
+				575F5112267B93B5008CCC96 /* AWSS3StoragePlugin in Frameworks */,
+				575F5114267B93B5008CCC96 /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +110,7 @@
 				577C5359266A51F00094E87F /* CloudLoginTests */,
 				577C5364266A51F00094E87F /* CloudLoginUITests */,
 				577C5346266A51E80094E87F /* Products */,
+				9BBA828EABDB672F9235A66A /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +127,14 @@
 		577C5347266A51E80094E87F /* CloudLogin */ = {
 			isa = PBXGroup;
 			children = (
+				5725CED12670F42D00F7B5CB /* CloudLogin.entitlements */,
 				577C5348266A51E80094E87F /* CloudLoginApp.swift */,
-				577C534A266A51E80094E87F /* ContentView.swift */,
 				577C534C266A51F00094E87F /* Assets.xcassets */,
 				577C5351266A51F00094E87F /* Info.plist */,
 				577C534E266A51F00094E87F /* Preview Content */,
+				BC846F0E588BAB3DAC9BF65B /* Login */,
+				BC8468D9C3E04AE2677DF020 /* Components */,
+				BC84658DD052FC41E35170D5 /* Utilities */,
 			);
 			path = CloudLogin;
 			sourceTree = "<group>";
@@ -130,6 +165,46 @@
 			path = CloudLoginUITests;
 			sourceTree = "<group>";
 		};
+		9BBA828EABDB672F9235A66A /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				E13300B0D4A8DD29DF6C580B /* awsconfiguration.json */,
+				66CCBA0E04C87450AA8C143A /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		BC84658DD052FC41E35170D5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC8460CF092F78A89BEB4CAA /* AppStyle.swift */,
+				57ED03682678FAA400130A0A /* Helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BC8468D9C3E04AE2677DF020 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC846D984B847EDF9B01896F /* CardView.swift */,
+				BC846DC3FE0A883030D0672C /* PauseView.swift */,
+				BC84601DB4B2CC788327DD61 /* GradientButtonView.swift */,
+				57FC4A5D26711761005F2588 /* IconView.swift */,
+				57ED03662678B19900130A0A /* WhiteLineView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC846F0E588BAB3DAC9BF65B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BC8467EF5FC370CBD7AF04CC /* FlatLoginView.swift */,
+				BC846DC4C23A78BA8C9EB95D /* SignupScreenView.swift */,
+				57ED03642677AB5A00130A0A /* FlatLoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +221,12 @@
 			dependencies = (
 			);
 			name = CloudLogin;
+			packageProductDependencies = (
+				5725CECF266E5B8900F7B5CB /* VisualEffects */,
+				575F5111267B93B5008CCC96 /* AWSS3StoragePlugin */,
+				575F5113267B93B5008CCC96 /* AWSCognitoAuthPlugin */,
+				575F5115267B93B5008CCC96 /* Amplify */,
+			);
 			productName = CloudLogin;
 			productReference = 577C5345266A51E80094E87F /* CloudLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +298,10 @@
 				Base,
 			);
 			mainGroup = 577C533C266A51E80094E87F;
+			packageReferences = (
+				5725CECE266E5B8900F7B5CB /* XCRemoteSwiftPackageReference "VisualEffects" */,
+				575F5110267B93B5008CCC96 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = 577C5346266A51E80094E87F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +320,8 @@
 			files = (
 				577C5350266A51F00094E87F /* Preview Assets.xcassets in Resources */,
 				577C534D266A51F00094E87F /* Assets.xcassets in Resources */,
+				C9F0155909DF56C10069F0FA /* awsconfiguration.json in Resources */,
+				75A95C8DE2D4D5147B3D8002 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +346,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577C534B266A51E80094E87F /* ContentView.swift in Sources */,
 				577C5349266A51E80094E87F /* CloudLoginApp.swift in Sources */,
+				BC846CF374FC82CB70B76F82 /* FlatLoginView.swift in Sources */,
+				57ED03652677AB5A00130A0A /* FlatLoginViewModel.swift in Sources */,
+				BC84642BA270CD7D4534E457 /* CardView.swift in Sources */,
+				57ED03692678FAA400130A0A /* Helpers.swift in Sources */,
+				BC8462B8FA3E011B7049E00E /* AppStyle.swift in Sources */,
+				BC8463D9596F98389CBF7E89 /* SignupScreenView.swift in Sources */,
+				57FC4A5E26711761005F2588 /* IconView.swift in Sources */,
+				BC8467B14F961303CFF3C05F /* PauseView.swift in Sources */,
+				57ED03672678B19900130A0A /* WhiteLineView.swift in Sources */,
+				BC846C0235B75DC7EDE0B7DD /* GradientButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +447,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -405,6 +502,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -417,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudLogin/CloudLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CloudLogin/Preview Content\"";
 				DEVELOPMENT_TEAM = THMZRMRZ9S;
@@ -439,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudLogin/CloudLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CloudLogin/Preview Content\"";
 				DEVELOPMENT_TEAM = THMZRMRZ9S;
@@ -580,6 +680,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5725CECE266E5B8900F7B5CB /* XCRemoteSwiftPackageReference "VisualEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/VisualEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		575F5110267B93B5008CCC96 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5725CECF266E5B8900F7B5CB /* VisualEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5725CECE266E5B8900F7B5CB /* XCRemoteSwiftPackageReference "VisualEffects" */;
+			productName = VisualEffects;
+		};
+		575F5111267B93B5008CCC96 /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575F5110267B93B5008CCC96 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSS3StoragePlugin;
+		};
+		575F5113267B93B5008CCC96 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575F5110267B93B5008CCC96 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		575F5115267B93B5008CCC96 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575F5110267B93B5008CCC96 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 577C533D266A51E80094E87F /* Project object */;
 }
