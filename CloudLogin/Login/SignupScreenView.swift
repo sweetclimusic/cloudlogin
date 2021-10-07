@@ -5,7 +5,6 @@
 //  Created by Ashlee Muscroft on 04/06/2021.
 //
 
-import AuthenticationServices
 import SwiftUI
 
 struct SignupScreenView: View {
@@ -14,23 +13,9 @@ struct SignupScreenView: View {
     @State var appActive: Bool = true
     @State var signupScreen: Bool = true
     let pauseView = PauseUIView()
-    let appleSignUp = SignInWithAppleButton(.signUp,
-                                            onRequest: { request in
-                                                request.requestedScopes = [.fullName, .email]
-                                            },
-                                            onCompletion: { result in
-                                                print(result)
-                                            }
-    )
+    let appleSignUp = AppleSignUpView()
+    let appleSignIn = AppleSignInView()
     
-    let appleSignIn = SignInWithAppleButton(.signIn,
-                                            onRequest: { request in
-                                                request.requestedScopes = [.fullName, .email]
-                                            },
-                                            onCompletion: { result in
-                                                print(result)
-                                            }
-    )
     var body: some View {
         ZStack {
             if appActive == false {
@@ -76,22 +61,15 @@ struct SignupScreenView: View {
                                         .font(.footnote.bold())
                                 }
                             }
-                            
+                            // Line Break
                             RoundedRectangle(cornerRadius: .buttonCornerRadius)
                                 .frame(height: 1)
                                 .foregroundColor(Color.init(white: 0.8))
-                            
-                            SignInWithAppleButton(.signIn,
-                                                  onRequest: { request in
-                                                    request.requestedScopes = [.fullName, .email]
-                                                  },
-                                                  onCompletion: { result in
-                                                    print(result)
-                                                  }
-                            )
-                            .signInWithAppleButtonStyle(.black)
-                            .cornerRadius(.buttonCornerRadius)
-                            .frame(height: 50)
+                            if signupScreen {
+                                appleSignUp
+                            } else {
+                                appleSignIn
+                            }
                         }.padding(.minEdgePadding)
                     }.modifier(CardBackgroundModifier())
                     Image("logo")

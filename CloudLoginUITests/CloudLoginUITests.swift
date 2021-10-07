@@ -37,6 +37,6 @@ class CloudLoginUITests: XCTestCase {
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
             }
-        }
+        } 
     }
 }
